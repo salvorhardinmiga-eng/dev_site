@@ -1,4 +1,5 @@
 import Starfield from "@/components/Starfield";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -14,7 +15,7 @@ export default function Home() {
           <div className="flex flex-wrap gap-x-6 gap-y-2 text-[11px] font-mono tracking-widest text-muted uppercase">
             <span>Chennai, India</span>
             <span>CS + Physics Undergraduate</span>
-            <a href="#footer" className="text-accent/80 hover:text-accent transition-colors cursor-pointer decoration-accent/30 underline underline-offset-4">Connect</a>
+            <Link href="#footer" className="text-accent/80 hover:text-accent transition-colors cursor-pointer decoration-accent/30 underline underline-offset-4">Connect</Link>
           </div>
         </div>
         
@@ -151,9 +152,9 @@ export default function Home() {
         <h2 className="font-mono text-[10px] tracking-[0.3em] text-muted/60 mb-8 uppercase border-t border-white/5 pt-12">
           // AI Music
         </h2>
-        <a 
+        <Link 
           href="/music" 
-          className="group flex flex-col gap-3 p-8 border border-white/5 bg-white/[0.01] hover:bg-white/[0.03] transition-all relative overflow-hidden"
+          className="group flex flex-col gap-3 p-8 border border-white/5 bg-white/[0.01] hover:bg-white/[0.03] transition-all relative overflow-hidden block"
         >
           <div className="absolute top-0 left-0 w-[2px] h-0 bg-accent group-hover:h-full transition-all duration-500"></div>
           <div className="flex justify-between items-center">
@@ -163,7 +164,7 @@ export default function Home() {
           <p className="text-sm text-muted font-light leading-relaxed max-w-xl">
             Generative sound and music experiments. Exploring how AI can interpret and create complex structural patterns in audio.
           </p>
-        </a>
+        </Link>
       </section>
 
       {/* Writing */}
