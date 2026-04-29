@@ -21,7 +21,7 @@ export default function Home() {
         
         <div className="mt-12 space-y-8">
           <p className="text-xl font-light leading-relaxed text-muted max-w-2xl">
-            I'm a CS and Physics student. Most of my time goes into building at the intersection of machine learning, quantum algorithms, and the mathematics that runs underneath both.
+            I&apos;m a CS and Physics student. Most of my time goes into building at the intersection of machine learning, quantum algorithms, and the mathematics that runs underneath both.
           </p>
 
           <p className="text-xl font-light leading-relaxed text-muted max-w-xl">
@@ -37,7 +37,7 @@ export default function Home() {
       {/* Projects */}
       <section id="projects" className="mb-32 animate-in [animation-delay:400ms]">
         <h2 className="font-mono text-[10px] tracking-[0.3em] text-muted/60 mb-12 uppercase border-t border-white/5 pt-12">
-          // Selected Projects
+          {"// Selected Projects"}
         </h2>
         <div className="space-y-16">
           {/* NNCS-Mamba */}
@@ -65,7 +65,7 @@ export default function Home() {
               <a href="https://github.com/QuantumAmplification/ampamp" className="font-mono text-[10px] tracking-widest text-muted hover:text-accent border-b border-white/10 hover:border-accent transition-all uppercase">Source</a>
             </div>
             <p className="text-muted text-sm leading-relaxed mb-4 font-light">
-              A Python library for quantum algorithms. It provides tools for "amplitude amplification"—a core technique used in quantum search and optimization.
+              A Python library for quantum algorithms. It provides tools for &quot;amplitude amplification&quot;—a core technique used in quantum search and optimization.
             </p>
           </div>
 
@@ -120,7 +120,7 @@ export default function Home() {
               <a href="https://github.com/varun29-git/WorldModels" className="font-mono text-[10px] tracking-widest text-muted hover:text-accent border-b border-white/10 hover:border-accent transition-all uppercase">Source</a>
             </div>
             <p className="text-muted text-sm leading-relaxed mb-4 font-light">
-              An AI system that learns to "imagine" and predict its environment. It uses a combination of neural networks to build an internal model of the world.
+              An AI system that learns to &quot;imagine&quot; and predict its environment. It uses a combination of neural networks to build an internal model of the world.
             </p>
           </div>
         </div>
@@ -129,13 +129,13 @@ export default function Home() {
       {/* Open Questions */}
       <section id="questions" className="mb-32 animate-in [animation-delay:600ms]">
         <h2 className="font-mono text-[10px] tracking-[0.3em] text-muted/60 mb-8 uppercase border-t border-white/5 pt-12">
-          // Open Questions
+          {"// Open Questions"}
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-12 gap-y-8">
           <div className="group">
             <span className="font-mono text-[10px] text-accent/40 mb-2 block">01</span>
             <p className="text-sm text-muted font-light leading-snug group-hover:text-muted/90 transition-colors">
-              Are recursive AI machines the end-state, and was Karpathy's autoresearch the first primitive step toward them?
+              Are recursive AI machines the end-state, and was Karpathy&apos;s autoresearch the first primitive step toward them?
             </p>
           </div>
           <div className="group">
@@ -150,7 +150,7 @@ export default function Home() {
       {/* AI Music */}
       <section id="music" className="mb-32 animate-in [animation-delay:700ms]">
         <h2 className="font-mono text-[10px] tracking-[0.3em] text-muted/60 mb-8 uppercase border-t border-white/5 pt-12">
-          // AI Music
+          {"// AI Music"}
         </h2>
         <Link 
           href="/music" 
@@ -170,7 +170,7 @@ export default function Home() {
       {/* Writing */}
       <section id="writing" className="mb-32 animate-in [animation-delay:800ms]">
         <h2 className="font-mono text-[10px] tracking-[0.3em] text-muted/60 mb-8 uppercase border-t border-white/5 pt-12">
-          // Writing
+          {"// Writing"}
         </h2>
         <a 
           href="https://varundaiya.substack.com/p/ink-bits-and-tokens" 

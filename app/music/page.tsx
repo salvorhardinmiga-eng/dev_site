@@ -1,18 +1,16 @@
 import Starfield from "@/components/Starfield";
 import Link from "next/link";
 
-const ASSET_PREFIX = '/dev_site';
-
 export default function MusicPage() {
   const tracks = [
     {
       title: "Ad Astra Per Aspera",
-      file: `${ASSET_PREFIX}/ai_music/Ad_Astra_Per_Aspera.mp4`,
+      file: "/ai_music/Ad_Astra_Per_Aspera.mp4",
       description: "Like a thin filament in an infinite vacuum, we are small and vulnerable. We broadcast our fire into the dark out of a desperate need to matter. The absolute core of this anthem is Ad astra per aspera. To the stars through difficulties. The ascent is never graceful. We must leave our terrestrial safety behind and push past our own sanity. Brutal hardship is the guaranteed price of admission to the stars."
     },
     {
       title: "Everything Falls Into Place",
-      file: `${ASSET_PREFIX}/ai_music/Everything_Falls_Into_Place.mp4`,
+      file: "/ai_music/Everything_Falls_Into_Place.mp4",
       description: "We are made of the same stuff as the stars, yet we are just tiny people trying to make sense of our time here. It can feel heavy to realize how small we are compared to the rest of the galaxy. This song is about that strange, beautiful moment when you stop to wonder who you are and why you exist. It is a reminder that even though we are just passing through, there is something special about being part of the universe and finally understanding our own place in it."
     }
   ];

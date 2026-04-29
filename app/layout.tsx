@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   title: "Varun Daiya",
   description: "Independent researcher exploring the intersection of distributed systems and cognitive architectures.",
   icons: {
-    icon: "/dev_site/favicon.svg",
+    icon: "/favicon.svg",
   },
 };
 
