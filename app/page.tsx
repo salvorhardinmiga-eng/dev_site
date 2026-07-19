@@ -24,6 +24,10 @@ export default function Home() {
             I&apos;m a CS and Physics student. Most of my time goes into building at the intersection of machine learning, quantum algorithms, and the mathematics that runs underneath both.
           </p>
 
+          <p className="text-xl font-light leading-relaxed text-muted max-w-2xl">
+            Currently building <span className="text-white/90">Terminus</span>: a 2.6B-parameter native ternary (1.58-bit) small language model designed for offline, low-memory execution on consumer Android devices, supporting ten Indic languages.
+          </p>
+
           <p className="text-xl font-light leading-relaxed text-muted max-w-xl">
             I learn best by implementing things <span className="text-white/90">from scratch</span>. Papers are a starting point and working code is where understanding actually lands.
           </p>
@@ -65,7 +69,7 @@ export default function Home() {
               <a href="https://github.com/QuantumAmplification/ampamp" className="font-mono text-[10px] tracking-widest text-muted hover:text-accent border-b border-white/10 hover:border-accent transition-all uppercase">Source</a>
             </div>
             <p className="text-muted text-sm leading-relaxed mb-4 font-light">
-              A Python library for quantum algorithms. It provides tools for &quot;amplitude amplification&quot;—a core technique used in quantum search and optimization.
+              A Python library for quantum algorithms. It provides tools for &quot;amplitude amplification&quot;, a core technique used in quantum search and optimization.
             </p>
           </div>
 
@@ -98,19 +102,6 @@ export default function Home() {
             </p>
           </div>
 
-          {/* Quantum Amplitude Amplification */}
-          <div className="group border-t border-white/5 pt-12">
-            <div className="flex justify-between items-baseline mb-4">
-              <h3 className="font-heading text-2xl text-white/90 group-hover:text-accent transition-colors">
-                Quantum Amplitude Amplification
-              </h3>
-              <a href="https://quantumamplification.github.io/QuantumAmplitudeAmplification/" className="font-mono text-[10px] tracking-widest text-muted hover:text-accent border-b border-white/10 hover:border-accent transition-all uppercase">Visual Guide</a>
-            </div>
-            <p className="text-muted text-sm leading-relaxed mb-4 font-light">
-              A visual and intuitive guide to help people understand quantum algorithms. It includes a survey paper that explains the math through a unified, graphical lens.
-            </p>
-          </div>
-
           {/* WorldModels */}
           <div className="group border-t border-white/5 pt-12">
             <div className="flex justify-between items-baseline mb-4">
@@ -126,8 +117,45 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Publications */}
+      <section id="publications" className="mb-32 animate-in [animation-delay:600ms]">
+        <h2 className="font-mono text-[10px] tracking-[0.3em] text-muted/60 mb-12 uppercase border-t border-white/5 pt-12">
+          {"// Publications"}
+        </h2>
+        <div className="space-y-16">
+          {/* Congestion-Free Routing on Quantum Chips */}
+          <div className="group">
+            <div className="flex justify-between items-baseline mb-4">
+              <h3 className="font-heading text-2xl text-white/90 group-hover:text-accent transition-colors">
+                Congestion-Free Routing on Quantum Chips
+              </h3>
+              <a href="https://arxiv.org/abs/2604.27015" className="font-mono text-[10px] tracking-widest text-muted hover:text-accent border-b border-white/10 hover:border-accent transition-all uppercase">arXiv</a>
+            </div>
+            <p className="text-muted text-sm leading-relaxed mb-4 font-light">
+              Proposing swap-free spectral-qudit routing on quantum chips, where higher qudit levels act as orthogonal buses for nonlocal control delivery on near-neighbor hardware.
+            </p>
+          </div>
+
+          {/* Quantum Amplitude Amplification */}
+          <div className="group border-t border-white/5 pt-12">
+            <div className="flex justify-between items-baseline mb-4">
+              <h3 className="font-heading text-2xl text-white/90 group-hover:text-accent transition-colors">
+                Quantum Amplitude Amplification Survey
+              </h3>
+              <div className="flex gap-4">
+                <a href="https://quantumamplification.github.io/QuantumAmplitudeAmplification/" className="font-mono text-[10px] tracking-widest text-muted hover:text-accent border-b border-white/10 hover:border-accent transition-all uppercase">Visual Guide</a>
+                <a href="https://zenodo.org/records/20054981" className="font-mono text-[10px] tracking-widest text-muted hover:text-accent border-b border-white/10 hover:border-accent transition-all uppercase">Zenodo</a>
+              </div>
+            </div>
+            <p className="text-muted text-sm leading-relaxed mb-4 font-light">
+              A comprehensive survey of quantum amplitude-amplification methods and their algorithmic variants, bridging foundational concepts with modern optimizations.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Open Questions */}
-      <section id="questions" className="mb-32 animate-in [animation-delay:600ms]">
+      <section id="questions" className="mb-32 animate-in [animation-delay:800ms]">
         <h2 className="font-mono text-[10px] tracking-[0.3em] text-muted/60 mb-8 uppercase border-t border-white/5 pt-12">
           {"// Open Questions"}
         </h2>
@@ -148,7 +176,7 @@ export default function Home() {
       </section>
 
       {/* AI Music */}
-      <section id="music" className="mb-32 animate-in [animation-delay:700ms]">
+      <section id="music" className="mb-32 animate-in [animation-delay:1000ms]">
         <h2 className="font-mono text-[10px] tracking-[0.3em] text-muted/60 mb-8 uppercase border-t border-white/5 pt-12">
           {"// AI Music"}
         </h2>
@@ -168,26 +196,45 @@ export default function Home() {
       </section>
 
       {/* Writing */}
-      <section id="writing" className="mb-32 animate-in [animation-delay:800ms]">
+      <section id="writing" className="mb-32 animate-in [animation-delay:1200ms]">
         <h2 className="font-mono text-[10px] tracking-[0.3em] text-muted/60 mb-8 uppercase border-t border-white/5 pt-12">
           {"// Writing"}
         </h2>
-        <a 
-          href="https://varundaiya.substack.com/p/ink-bits-and-tokens" 
-          className="group flex flex-col gap-3 p-8 border border-white/5 bg-white/[0.01] hover:bg-white/[0.03] transition-all relative overflow-hidden"
-        >
-          <div className="absolute top-0 left-0 w-[2px] h-0 bg-accent group-hover:h-full transition-all duration-500"></div>
-          <div className="flex justify-between items-center">
-            <div className="flex flex-col gap-1">
-              <span className="font-heading text-2xl text-white/90 group-hover:text-accent transition-colors">Ink, Bits, and Tokens</span>
-              <span className="font-mono text-[9px] tracking-widest text-accent/50 uppercase">A History of Information and the Collapse of Its Old Paradigm</span>
+        <div className="space-y-6">
+          <a 
+            href="https://varundaiya.substack.com/p/after-the-wall" 
+            className="group flex flex-col gap-3 p-8 border border-white/5 bg-white/[0.01] hover:bg-white/[0.03] transition-all relative overflow-hidden block"
+          >
+            <div className="absolute top-0 left-0 w-[2px] h-0 bg-accent group-hover:h-full transition-all duration-500"></div>
+            <div className="flex justify-between items-center">
+              <div className="flex flex-col gap-1">
+                <span className="font-heading text-2xl text-white/90 group-hover:text-accent transition-colors">After the Wall</span>
+                <span className="font-mono text-[9px] tracking-widest text-accent/50 uppercase">Rebuilding AI from one bit</span>
+              </div>
+              <span className="font-mono text-[10px] tracking-widest text-muted uppercase">Substack</span>
             </div>
-            <span className="font-mono text-[10px] tracking-widest text-muted uppercase">Substack</span>
-          </div>
-          <p className="text-sm text-muted font-light leading-relaxed max-w-xl">
-            Essays on computation, intelligence, and the ideas that connect them. I write about how information has evolved through history, why the shift from storing and retrieving to generating on demand is a paradigm shift, and what it means for technology, power, and the people building in this moment.
-          </p>
-        </a>
+            <p className="text-sm text-muted font-light leading-relaxed max-w-xl">
+              An essay on the limits of Moore’s Law, the end of brute-force AI scaling, and the transition toward efficient intelligence. Exploring how one-bit models can bring powerful AI from massive data centers to everyday devices, changing how intelligence is built, accessed, and controlled.
+            </p>
+          </a>
+
+          <a 
+            href="https://varundaiya.substack.com/p/ink-bits-and-tokens" 
+            className="group flex flex-col gap-3 p-8 border border-white/5 bg-white/[0.01] hover:bg-white/[0.03] transition-all relative overflow-hidden block"
+          >
+            <div className="absolute top-0 left-0 w-[2px] h-0 bg-accent group-hover:h-full transition-all duration-500"></div>
+            <div className="flex justify-between items-center">
+              <div className="flex flex-col gap-1">
+                <span className="font-heading text-2xl text-white/90 group-hover:text-accent transition-colors">Ink, Bits, and Tokens</span>
+                <span className="font-mono text-[9px] tracking-widest text-accent/50 uppercase">A History of Information and the Collapse of Its Old Paradigm</span>
+              </div>
+              <span className="font-mono text-[10px] tracking-widest text-muted uppercase">Substack</span>
+            </div>
+            <p className="text-sm text-muted font-light leading-relaxed max-w-xl">
+              Essay on computation, intelligence, and the ideas that connect them. I write about how information has evolved through history, why the shift from storing and retrieving to generating on demand is a paradigm shift, and what it means for technology, power, and the people building in this moment.
+            </p>
+          </a>
+        </div>
       </section>
 
       <footer id="footer" className="mt-48 pb-12">
