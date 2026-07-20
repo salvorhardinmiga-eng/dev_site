@@ -1,8 +1,19 @@
+"use client";
+
 import Starfield from "@/components/Starfield";
 import Link from "next/link";
+import { useMode } from "@/components/ModeContext";
+import MusicMachineView from "@/components/MusicMachineView";
 
 export default function MusicPage() {
+  const { mode } = useMode();
+
+  if (mode === "machine") {
+    return <MusicMachineView />;
+  }
+
   const tracks = [
+
     {
       title: "Ad Astra Per Aspera",
       file: "/ai_music/Ad_Astra_Per_Aspera.mp4",

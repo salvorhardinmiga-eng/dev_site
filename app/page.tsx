@@ -1,9 +1,20 @@
+"use client";
+
 import Starfield from "@/components/Starfield";
 import Link from "next/link";
+import { useMode } from "@/components/ModeContext";
+import MachineView from "@/components/MachineView";
 
 export default function Home() {
+  const { mode } = useMode();
+
+  if (mode === "machine") {
+    return <MachineView />;
+  }
+
   return (
     <main className="container mx-auto max-w-3xl px-6 py-24 sm:px-8 font-body text-foreground selection:bg-accent selection:text-white/90">
+
       <Starfield />
 
       {/* Identity */}

@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Inter, Space_Grotesk, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
+import { ModeProvider } from "@/components/ModeContext";
+import ModeToggle from "@/components/ModeToggle";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -35,7 +37,13 @@ export default function RootLayout({
       lang="en"
       className={`${inter.variable} ${spaceGrotesk.variable} ${jetbrainsMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col font-body">{children}</body>
+      <body className="min-h-full flex flex-col font-body">
+        <ModeProvider>
+          <ModeToggle />
+          {children}
+        </ModeProvider>
+      </body>
     </html>
   );
 }
+

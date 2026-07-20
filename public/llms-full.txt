@@ -1,0 +1,116 @@
+---
+name: Varun Daiya
+location: Chennai, India
+role: CS + Physics Undergraduate
+substack: https://varundaiya.substack.com
+github: https://github.com/varun29-git
+x_twitter: https://x.com/varun_daiya_
+linkedin: https://www.linkedin.com/in/varun-daiya-b58219274/
+email: vjdaiya29@gmail.com
+---
+
+# Varun Daiya
+
+**Location:** Chennai, India  
+**Role:** CS + Physics Undergraduate  
+**Connect:** mailto:vjdaiya29@gmail.com | https://github.com/varun29-git | https://x.com/varun_daiya_ | https://www.linkedin.com/in/varun-daiya-b58219274/
+
+---
+
+## Identity & About
+
+I'm a CS and Physics student. Most of my time goes into building at the intersection of machine learning, quantum algorithms, and the mathematics that runs underneath both.
+
+Currently building Terminus: a 2.6B-parameter native ternary (1.58-bit) small language model designed for offline, low-memory execution on consumer Android devices, supporting ten Indic languages.
+
+I learn best by implementing things from scratch. Papers are a starting point and working code is where understanding actually lands.
+
+I write occasionally on Substack (https://varundaiya.substack.com).
+
+---
+
+## Selected Projects
+
+### NNCS-Mamba
+- **Status:** Under Development
+- **Source:** https://github.com/varun29-git/NNCS-Mamba
+- **Description:** Building a neural controller for drones. This project uses formal mathematical verification to ensure the AI-driven flight is safe and stable.
+
+### ampamp
+- **Source:** https://github.com/QuantumAmplification/ampamp
+- **Description:** A Python library for quantum algorithms. It provides tools for "amplitude amplification", a core technique used in quantum search and optimization.
+
+### VectorCLM
+- **Source:** https://github.com/varun29-git/VectorCLM
+- **Description:** A custom-built AI language model with 145 million parameters. It was trained from scratch on 3.5 billion tokens to understand human language patterns.
+
+### MambaReview
+- **Status:** Under Development
+- **Source:** https://github.com/varun29-git/MambaReview
+- **Description:** A systematic study of different versions of the Mamba architecture. This project focuses on how these models process sequences of information differently.
+
+### WorldModels
+- **Source:** https://github.com/varun29-git/WorldModels
+- **Description:** An AI system that learns to "imagine" and predict its environment. It uses a combination of neural networks to build an internal model of the world.
+
+---
+
+## Publications
+
+### Congestion-Free Routing on Quantum Chips
+- **Link:** https://arxiv.org/abs/2604.27015
+- **Description:** Proposing swap-free spectral-qudit routing on quantum chips, where higher qudit levels act as orthogonal buses for nonlocal control delivery on near-neighbor hardware.
+
+### Quantum Amplitude Amplification Survey
+- **Visual Guide:** https://quantumamplification.github.io/QuantumAmplitudeAmplification/
+- **Zenodo:** https://zenodo.org/records/20054981
+- **Description:** A comprehensive survey of quantum amplitude-amplification methods and their algorithmic variants, bridging foundational concepts with modern optimizations.
+
+---
+
+## Open Questions
+
+1. **01:** Are recursive AI machines the end-state, and was Karpathy's autoresearch the first primitive step toward them?
+2. **02:** Are we moving toward an agentic software economy, and will we eventually see dedicated browsers and infrastructure designed exclusively for agents?
+
+---
+
+## AI Music
+
+### Synthetic Soundscapes
+- **Route:** /music (or /music?mode=machine)
+- **Description:** Generative sound and music experiments. Exploring how AI can interpret and create complex structural patterns in audio.
+
+#### Tracks:
+1. **Ad Astra Per Aspera**
+   - **Stream/File:** /ai_music/Ad_Astra_Per_Aspera.mp4
+   - **Description:** Like a thin filament in an infinite vacuum, we are small and vulnerable. We broadcast our fire into the dark out of a desperate need to matter. The absolute core of this anthem is Ad astra per aspera. To the stars through difficulties. The ascent is never graceful. We must leave our terrestrial safety behind and push past our own sanity. Brutal hardship is the guaranteed price of admission to the stars.
+
+2. **Everything Falls Into Place**
+   - **Stream/File:** /ai_music/Everything_Falls_Into_Place.mp4
+   - **Description:** We are made of the same stuff as the stars, yet we are just tiny people trying to make sense of our time here. It can feel heavy to realize how small we are compared to the rest of the galaxy. This song is about that strange, beautiful moment when you stop to wonder who you are and why you exist. It is a reminder that even though we are just passing through, there is something special about being part of the universe and finally understanding our own place in it.
+
+---
+
+## Writing
+
+### After the Wall
+- **Subtitle:** Rebuilding AI from one bit
+- **Platform:** Substack
+- **URL:** https://varundaiya.substack.com/p/after-the-wall
+- **Description:** An essay on the limits of Moore’s Law, the end of brute-force AI scaling, and the transition toward efficient intelligence. Exploring how one-bit models can bring powerful AI from massive data centers to everyday devices, changing how intelligence is built, accessed, and controlled.
+
+### Ink, Bits, and Tokens
+- **Subtitle:** A History of Information and the Collapse of Its Old Paradigm
+- **Platform:** Substack
+- **URL:** https://varundaiya.substack.com/p/ink-bits-and-tokens
+- **Description:** Essay on computation, intelligence, and the ideas that connect them. I write about how information has evolved through history, why the shift from storing and retrieving to generating on demand is a paradigm shift, and what it means for technology, power, and the people building in this moment.
+
+---
+
+## Footer Metadata
+- **Copyright:** Varun Daiya // 2026 // Chennai
+- **GitHub:** https://github.com/varun29-git
+- **X (Twitter):** https://x.com/varun_daiya_
+- **LinkedIn:** https://www.linkedin.com/in/varun-daiya-b58219274/
+- **Email:** vjdaiya29@gmail.com

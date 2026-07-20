@@ -1,0 +1,25 @@
+# Varun Daiya - Developer & Research Portfolio
+
+> CS + Physics undergraduate student building at the intersection of machine learning, quantum algorithms, and cognitive architectures.
+
+## Core Project
+- Terminus: A 2.6B-parameter native ternary (1.58-bit) SLM for offline, low-memory execution on Android devices supporting Indic languages.
+
+## Key Links & Resources
+- GitHub Profile: https://github.com/varun29-git
+- Substack Essays: https://varundaiya.substack.com
+- ArXiv Quantum Paper: https://arxiv.org/abs/2604.27015
+- Quantum Amplitude Amplification Survey: https://zenodo.org/records/20054981
+- Full Machine-Readable Knowledge Base: /llms-full.txt
+- Machine View Interactive Mode: /?mode=machine
+
+## Projects
+- NNCS-Mamba: Neural controller for drones using formal mathematical verification (https://github.com/varun29-git/NNCS-Mamba)
+- ampamp: Python library for quantum amplitude amplification (https://github.com/QuantumAmplification/ampamp)
+- VectorCLM: 145M parameter AI language model trained from scratch (https://github.com/varun29-git/VectorCLM)
+- MambaReview: Benchmark & study of Mamba state space models (https://github.com/varun29-git/MambaReview)
+- WorldModels: Neural environment prediction system (https://github.com/varun29-git/WorldModels)
+
+## Essays
+- After the Wall (1-bit AI Scaling): https://varundaiya.substack.com/p/after-the-wall
+- Ink, Bits, and Tokens (Information Paradigms): https://varundaiya.substack.com/p/ink-bits-and-tokens
